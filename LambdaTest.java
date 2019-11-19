@@ -42,7 +42,6 @@ public class LambdaTest {
         System.out.println(cp3.compare(13,13));
     }
 
-
     @Test
     public void test3(){
         happyTime(500.0,aDouble -> System.out.println("consume money:"+aDouble));
